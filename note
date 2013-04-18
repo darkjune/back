@@ -1,0 +1,4 @@
+2013-4-18
+SymmetricDS 2.2.5 在route service中有一个检测data gap的bug，导致特定情况下replication会失败，数据已经经过trigger到达了sym_data表，但没有进入outgoing_batch和data_events表，导致replication失败。2.2.5.1有一个修复fix：
+http://sourceforge.net/p/symmetricds/code/HEAD/tree/branches/2.2/symmetric-core/src/main/java/org/jumpmind/symmetric/route/DataGapDetector.java
+编译后替换解决问题。
