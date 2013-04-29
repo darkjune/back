@@ -210,3 +210,6 @@ http://sourceforge.net/p/symmetricds/code/HEAD/tree/branches/2.2/symmetric-core/
 2013-4-24
 C++很多操作直接跟底层二进制原理有关。如char的分配1byte，wchar分配2byte，都是unicode的实现方式。而在MFC中为了适应同时支持ASCII
 和unicode，直接定义个TCHAR,这样在编译时编译器来决定底层用哪种char。
+
+2013-4-29
+开始看深入浅出MFC。对Windows的程序设计有了一些了解
