@@ -229,3 +229,7 @@ Little Endian
 | 78 | 56 | 34 | 12 |
 
 IA架构是little endian， power pc，sprac是big endian。 Internet是用big endian。
+
+2013-5-3
+笨办法学python
+http://www.yangzhiping.com/tech/learn-program-psychology.html
