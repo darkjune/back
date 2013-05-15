@@ -233,3 +233,7 @@ IA架构是little endian， power pc，sprac是big endian。 Internet是用big e
 2013-5-3
 笨办法学python
 http://www.yangzhiping.com/tech/learn-program-psychology.html
+
+2013-5-15 
+写了一个自动化python脚本，在onsite和offshore SVN间同步文件。参考了网上文件同步的例子，还有pysvn的使用。
+
