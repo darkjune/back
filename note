@@ -251,3 +251,10 @@ http://www.geekpark.net/read/seed 极客公园
 tomcat架构分析 (Session管理)
 http://gearever.iteye.com/blog/1546423
 http://tea.tisiwi.com/ 创业文章
+
+2013-7-9
+一些linux命令， 
+source ~/.bashrc  
+sudo ln -s /opt/firefox/firefox /usr/bin/firefox
+cat /proc/version
+cp -rf
