@@ -258,3 +258,20 @@ source ~/.bashrc
 sudo ln -s /opt/firefox/firefox /usr/bin/firefox
 cat /proc/version
 cp -rf
+
+2013-8-5
+struct person {
+  int age;
+  char *name;
+};
+struct person first;
+struct person *ptr;
+ptr = &first;
+结构体中的普通变量直接用.访问，结构体实例的指针访问结构体中的变量需要用->访问。
+如： first.age,  ptr->name
+
+需要学习函数指针。
+
+HashMap 维护table数组，数组中保存了Entry链中的第一个元素，hash重复的元素都在这，通过对比key再查找链中的
+值。
+hashtable和vector的线程安全也就是给增删方法加了sync关键字。
